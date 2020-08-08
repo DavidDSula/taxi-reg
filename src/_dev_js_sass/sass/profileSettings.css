@@ -1,0 +1,109 @@
+
+/*________________________________________*/
+/*----------Profile change---------------*/
+
+
+    /*--------Profile-----------*/
+      .profile_change,.Pas_Change,.deleteAccount 
+        {
+            display    : block;
+            max-width  : 80vmin;
+            min-width  : 205px; 
+            margin     : 15px auto 0 auto;
+
+
+            background-color: rgb(255, 255, 255);
+            padding         : 5px;
+            border-radius   : 5px 5px 0 0;
+           
+        }
+          .Pas_Change 
+            {
+              margin-bottom: -20px;
+            }
+
+      .profile_forms
+        {
+                margin          : 0 auto;
+                background-color: rgb(245, 241, 237);
+                padding         : 5px;
+                max-width       : 80vmin;
+                min-width       : 205px; 
+        }
+
+      .passChange input,.deleteAccount input,.profWrapper input,.profile_forms  label, .newUser > form > label
+        {
+          max-width : 80vmin;
+          width     : 220px;
+          padding   : 0;
+          display   : block;
+          margin    : 0  auto;
+
+        }
+      .profile_forms  label, .newUser > form > label
+        {
+            margin-bottom : -15px;
+            text-align    : left; 
+        }
+      .profile_forms >:first-child
+        {
+            padding-top: 15px;
+        }
+      .deleteAccount .userWrapper 
+        {
+          display: none;
+        }  
+        label.user
+          {
+            
+            display         : inline-block; 
+            width           : 80vmin; 
+            margin-bottom   : 10px; 
+            padding         : 5px 1px; 
+            cursor          : pointer; 
+            border-radius   : 5px; 
+            
+            color           : white;
+            background-color: rgb(67, 160, 4);
+            box-shadow      : 0 1px 5px 0.5px rgb(133, 130, 130);
+          } 
+          label.user:hover
+            {
+              background-color: rgb(80, 190, 6);
+            }
+          label.user:active
+            {
+              background-color:  rgb(51, 121, 4);
+            }  
+      .deleteAccount .newUser
+        {
+          background-color: antiquewhite;
+          margin-bottom   : 10px;
+          padding         : 0 0 10px 0; 
+          box-shadow      : 0 1px 5px 0.5px rgb(198, 193, 193);
+        } 
+        .deleteAccount .newUser > .newUserLabel  
+          {
+            padding: 5px;
+            color           : white;
+            background-color: rgb(67, 160, 4);
+          } 
+    /*--profile Buttons--*/
+        button
+          {
+            cursor: pointer;
+          }
+        .submit_profile
+          {
+            margin: 0 0 15px 20px;
+          }
+    /*~~~~~~~~~~~~~~~~~~~*/
+
+    .profWrapper input,.passChange input,.deleteAccount input
+        {
+
+          border       : 1px solid rgb(221, 221, 221);
+          border-radius: 3px;
+          padding      : 5px;
+          box-shadow   : inset 0 0 2px #000000;
+        }  
